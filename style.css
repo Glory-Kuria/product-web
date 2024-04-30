@@ -342,6 +342,7 @@ color: black;
   background-color: #fa4fe4;
   font-size: 20px;
   color: black;
+  text-align: center;
 }
 
 
@@ -358,12 +359,12 @@ color: black;
 
 }
 #topnav{
-  width: 100px;
+  width: 50px;
   height: 50px;
   display: flex;
-  flex-direction: column;
-  gap: 10%;
+  gap: 5%;
   background-color: rgb(250, 13, 250);
+  width: 300px;
   font-size: smaller;
   margin-top: 0px;
   border-radius: 20px;
@@ -376,23 +377,23 @@ color: black;
 #nav{
   background-color: #fa4fe4;
   display: flex;
-  flex-direction: column;
-  gap: 10%;
+  flex-wrap: wrap;
+  gap: 3%;
   border-radius: 20px;
   font-size: smaller;
-  margin-top: 15px;
-  padding-bottom: 10px;
+  margin-top: 10px;
+  padding-bottom: 5px;
   
 }
 #nav a{
-  margin-top: 2%;
+  margin-top: ;
   color: black;
 }
 
 #logo{ 
   margin-left: 20px;  
    display: flex; 
-  flex-direction: column; 
+  
       padding: 10x;  
    /* display: block;    */
 }  
@@ -418,17 +419,21 @@ color: black;
 }
 #form{
     background-color: rgb(246, 86, 241);
-    width: 360px;
-    height: 65vh;
-    border-radius: 20px;
-   padding-left: 50px;  
+    width: 320px;
+    height: 10vh;
+    border-radius: 1px;
+   padding-left: 10px;  
+   font-size: smaller;
    
 }
 #log{
-  height: 30px;
-  width:50px
+  height: 10px;
+  width:10px
   
-
+}
+#butt{
+  height: 2px;
+  width: 1px;
 }
 .input{
     border-radius: 20px;
@@ -436,7 +441,7 @@ color: black;
      padding: 20px; 
 }
 #icon{
-  width: 200px; ;
+  width: 50px; ;
    border-radius: 5px; 
    /* display: flex; */
   /* width: 50px; 
@@ -474,8 +479,8 @@ h2{
     
 }
 #footer{
-     display: flex; 
-     flex-direction: column;
+     /* display: flex;  */
+     /* flex-wrap: wrap; */
     /* flex-wrap: wrap; */
     gap: 1px;
     font-size: smaller;
@@ -484,7 +489,7 @@ h2{
     /* margin-top: 10%; */
     }
     #about{
-      margin-left: 100px;
+      margin-left: 0px;
       /* margin-top: 10px; */
       /* margin-left: 300px; */
     }
@@ -506,9 +511,8 @@ h2{
     /* } */
     #SIGNUP{
          display: flex; 
-         flex-direction: column;
-         gap: 5%;
-         margin-top: 7%;
+         gap: 0%;
+         margin-top: 2%;
          margin-left: 0px;
          padding-right: 2px;
          padding-left: 10px;
@@ -516,7 +520,6 @@ h2{
     }
     #signform{
       display: flex;
-      flex-direction: column;
       gap: 5%;
       /* margin-top: 10%; */
       margin-left: 15px;

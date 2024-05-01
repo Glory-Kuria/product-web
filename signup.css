@@ -1,0 +1,160 @@
+#nav{
+    background-color: #fa4fe4;
+    display: flex;
+    gap: 10%;
+    border-radius: 20px;
+    font-size: x-large;
+    margin-top: 15px;
+  }
+  #nav a{
+    margin-top: 2%;
+    color: black;
+    font-size: large;
+    gap: 7%;
+    text-decoration: none;
+  }
+  #SIGNUP{
+    display: flex; 
+    gap: 5%;
+    margin-top: 7%;
+    margin-left: 200px;
+
+}#icon{
+    width:300px; ;
+  }
+  #form{
+    background-color: rgb(246, 86, 241);
+    width: 34%;
+    height: 600px;
+    border-radius: 20px;
+   padding-left: 50px;
+   padding-bottom: 0px; 
+}#signup{
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 3px;
+    margin-left: 180px;
+    width: 20%;
+    background-color: rgb(239, 74, 14);
+}
+#log{
+    height: 20px;
+    width:20px
+    
+  }
+  #but{
+    height: 60px; 
+    width: 75px;
+  }
+
+  #signuplastn{
+    margin-left: 25px;
+    -webkit-text-fill-color: orangered;
+    border-radius: 20px;
+    padding: 15px;
+}
+#signupfrstn{
+    margin-left: 25px;
+    -webkit-text-fill-color: orangered;
+    border-radius: 20px;
+    padding: 15px;
+}
+#email{
+    margin-left:55px;
+    -webkit-text-fill-color: orangered;
+    border-radius: 20px;
+    padding: 15px;
+    
+
+}
+#password{
+    margin-left: 30px;
+    -webkit-text-fill-color: rgb(255, 252, 251);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+@media screen and (min-width:760px)and(max-width:1025px){
+    #nav{
+        background-color: #fa4fe4;
+        display: flex;
+        gap: 10%;
+        border-radius: 20px;
+        font-size: x-large;
+        margin-top: 15px;
+      }
+      #nav a{
+        margin-top: 2%;
+        color: black;
+        font-size: large;
+        gap: 7%;
+        text-decoration: none;
+      }
+      #SIGNUP{
+        display: flex; 
+        gap: 5%;
+        margin-top: 7%;
+        margin-left: 200px;
+    
+    }#icon{
+        width:300px; ;
+      }
+      #form{
+        background-color: rgb(246, 86, 241);
+        width: 320px;
+        height: 600px;
+        border-radius: 20px;
+       padding-left: 50px;
+       padding-bottom: 0px; 
+    }#signup{
+        border-radius: 20px;
+        padding: 15px;
+        margin-bottom: 3px;
+        margin-left: 180px;
+        width: 20%;
+        background-color: rgb(239, 74, 14);
+    }
+    #log{
+        height: 20px;
+        width:20px
+        
+      }
+      #but{
+        height: 60px; 
+        width: 75px;
+      }
+    
+      #signuplastn{
+        margin-left: 25px;
+        -webkit-text-fill-color: orangered;
+        border-radius: 20px;
+        padding: 15px;
+    }
+    #signupfrstn{
+        margin-left: 25px;
+        -webkit-text-fill-color: orangered;
+        border-radius: 20px;
+        padding: 15px;
+    }
+    #email{
+        margin-left:55px;
+        -webkit-text-fill-color: orangered;
+        border-radius: 20px;
+        padding: 15px;
+        
+    
+    }
+    #password{
+        margin-left: 30px;
+        -webkit-text-fill-color: orangered;
+        border-radius: 20px;
+        padding: 15px;
+    }
+
+
+
+
+
+}
+    
+

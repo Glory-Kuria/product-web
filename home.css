@@ -62,83 +62,66 @@
     margin-left: 500px;
   } */
 
-@media screen and (min-width:280px)and(max-width:480px){
- #topnav{
-display: flex;
-flex-wrap: wrap;
-  gap: 3px;
-  margin-left: 100px;
-  background-color: rgb(250, 13, 250);
-  width: 300px;
-  font-size: smaller;
-  margin-top: 0px;
-  border-radius: 20px;
-  position: fixed;
+@media screen and (min-width:280px) and (max-width:480px){
+  #topnav{
+    /* width: 1px; */
+    /* height: 60px; */
+    display: flex;
+    gap: 10px;
+    background-color: rgb(248, 241, 248);
+    font-size: small;
+    /* margin-top: 0px; */
+    border-radius: 20px;
+    /* position: fixed; */
+  }
+  #topnav a{
+    margin-top: 1%;
+    color: black;
+    text-decoration: none;
+  }
+  #logo{ 
+    margin-left: 20px;
+     display: flex;
+     flex-wrap: wrap;
+     padding: 100px;
+  }  
+  #hero{
+    /* border-radius: 20px; */
+    /* width: 30px; 
+    height:410px ;  */
+     border-radius:50px;
+     width: 200px;
+     height: 200px;
+  
+  }
+  #welcome{
+    font-size: smaller;
+    position: relative;
+    right: 90px;
+    /* padding-right: 70px; */
+  }
+  #myimg{
+    width: 50px;
+     height:30px
+   
+   }
+   #butt{
+    height: 50px;
+    width: 50px;
+  }
+  #footer{
+    display: flex;  
+    /* flex-wrap: wrap; */
+   /* flex-wrap: wrap; */
+   justify-content: space-around;
+   font-size: medium;
+   background-color: rgb(167, 166, 166);
+   height: 100%;
+ 
+   /* margin-top: 10%; */
+   }#about{
+    margin-left: 0px;
+    /* margin-top: 10px; */
+    /* margin-left: 300px; */
+   }
 }
-#topnav a{
-  margin-top: 1px;
-  color: black;
-  font-size: smaller;
-}
-      /* #topnav a{
-        margin-top: 1%;
-        color: black;
-        text-decoration: none;
-      } */
-      #logo{ 
-        margin-left: 20px;
-         display: flex;
-         padding: 10px;
-      }  
-      #hero{
-        /* border-radius: 20px; */
-        /* width: 30px; 
-        height:410px ;  */
-         border-radius:50px;
-         width: 20%;
-         height: 20px;
-      
-      }
-      #welcome{
-     margin-top: 50px; 
-      font-size: smaller;
-      position: relative;
-      right: 10px;
-
-            
-             /* padding-right: 10px;  */
-     }
-    /* .h2{
-              margin-bottom: 20%;
-          } */
-      
-      #myimg{
-        width: 50px;
-         height:30px
-       
-       }
-       #butt{
-        height: 50px;
-        width: 50px;
-      }
-      #footer{
-        display: flex;  
-        /* flex-wrap: wrap; */
-       /* flex-wrap: wrap; */
-       gap: 4px;
-       font-size: smaller;
-       background-color: rgb(167, 166, 166);
-       height: 220px;
-     
-       /* margin-top: 10%; */
-       }
-       #about{
-        margin-left: 0px;
-        /* margin-top: 10px; */
-        /* margin-left: 300px; */
-      }
-      #details1{
-        margin-left: 100px;
-      } 
-    
-    }
